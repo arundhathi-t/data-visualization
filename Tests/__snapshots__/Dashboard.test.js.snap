@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="dashboard-container"
+  >
+    <header
+      class="dashboard-header"
+    >
+      <h1>
+        Data Visualization Dashboard
+      </h1>
+    </header>
+    <div
+      class="controls-section"
+    >
+      <div
+        class="search-bar"
+      >
+        <input
+          placeholder="Search metrics..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="time-filters"
+      >
+        <label>
+          <input
+            checked=""
+            name="timeFilter"
+            type="radio"
+            value="all"
+          />
+          All Time
+        </label>
+        <label>
+          <input
+            name="timeFilter"
+            type="radio"
+            value="lastHour"
+          />
+          Last Hour
+        </label>
+        <label>
+          <input
+            name="timeFilter"
+            type="radio"
+            value="lastDay"
+          />
+          Last Day
+        </label>
+        <label>
+          <input
+            name="timeFilter"
+            type="radio"
+            value="lastWeek"
+          />
+          Last Week
+        </label>
+      </div>
+    </div>
+    <div
+      class="charts-section"
+    >
+      <div>
+        Mocked Charts Component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
